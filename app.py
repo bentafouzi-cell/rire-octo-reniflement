@@ -11,4 +11,5 @@ def analyse_medicale():
     return 0
 
 if __name__ == "__main__":
-    sys.exit(analyse_medicale())
+   print("🔥 Trigger automatique réussi ! Le pipeline s'est lancé tout seul.") 
+  sys.exit(analyse_medicale()) 
