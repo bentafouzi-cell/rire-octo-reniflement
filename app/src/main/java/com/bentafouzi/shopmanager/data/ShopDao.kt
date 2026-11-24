@@ -24,7 +24,7 @@ interface ShopDao {
     fun observeSales(): Flow<List<Sale>>
 
     @Insert
-    suspend fun insertExpense(expense: Expense)
+    suspend fun insertExpense(expense: Expense): Long
 
     @Query("SELECT * FROM expenses ORDER BY createdAt DESC")
     fun observeExpenses(): Flow<List<Expense>>
