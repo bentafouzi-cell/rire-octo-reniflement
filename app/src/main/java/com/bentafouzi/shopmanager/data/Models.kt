@@ -8,7 +8,8 @@ data class Product(
     val name: String,
     val price: Double,
     val quantity: Int,
-    val category: String = "عام"
+    val category: String = "عام",
+    val barcode: String = ""
 )
 
 @Entity(tableName = "sales")
